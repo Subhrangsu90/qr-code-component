@@ -15,12 +15,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.png)
+![Screenshot](./screenshot.png)
 
 ### Demo
 
 - Live Site URL:
-  You can view a live demo of this project [here](#insert-live-demo-link).
+  You can view a live demo of this project [here](https://subhrangsu90.github.io/qr-code-component/).
 
 ## Features
 
