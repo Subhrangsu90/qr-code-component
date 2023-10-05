@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Oleo+Script&family=Orbitron&family=Outfit:wght@400;700&family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+  margin: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 1px);
+}
+
+.main-container {
+  width: 13rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.25rem;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.main-container > img {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+  align-items: center;
+}
+
+.main-container h3 {
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-container p {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .main-container {
+    width: 200px;
+  }
+}
